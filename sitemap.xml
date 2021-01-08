@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://自新世界.com/2020-12-12_Linux-synopsis-install</loc>
+    
+    <lastmod>2021-01-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2020-12-22_Filesystem-and-basicoperations</loc>
+    
+    <lastmod>2020-12-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2020-12-22_tools</loc>
+    
+    <lastmod>2020-12-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2020-12-21_Use-hexo-next7</loc>
+    
+    <lastmod>2020-12-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2020-12-12_Command-and-help</loc>
+    
+    <lastmod>2020-12-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2020-12-12_How-to-use-linux</loc>
+    
+    <lastmod>2020-12-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/links/</loc>
+    
+    <lastmod>2020-12-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/tags/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/about/</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/categories/</loc>
+    
+    <lastmod>2020-12-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/404</loc>
+    
+    <lastmod>2020-12-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2020-12-07_Blog-make</loc>
+    
+    <lastmod>2020-12-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2020-12-06_Navigation-bar</loc>
+    
+    <lastmod>2020-12-05</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>http://自新世界.com/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://自新世界.com/tags/tools/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/tags/linux/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/tags/rhel8/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://自新世界.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/categories/%E6%9D%82%E7%89%A9%E7%AE%B1/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/categories/linux-for-rhel8/</loc>
+    <lastmod>2021-01-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
