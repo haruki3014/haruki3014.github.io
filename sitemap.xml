@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://自新世界.com/2020-12-22_tools</loc>
+    
+    <lastmod>2021-01-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://自新世界.com/2020-12-12_Linux-synopsis-install</loc>
     
     <lastmod>2021-01-07</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://自新世界.com/2020-12-22_Filesystem-and-basicoperations</loc>
     
     <lastmod>2020-12-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/2020-12-22_tools</loc>
-    
-    <lastmod>2020-12-22</lastmod>
     
   </url>
   
