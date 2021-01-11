@@ -25,7 +25,7 @@
   <meta name="description" content="May the Force be with you :&amp;#41;">
 <meta property="og:type" content="website">
 <meta property="og:title" content="[404]">
-<meta property="og:url" content="http://自新世界.com/404">
+<meta property="og:url" content="http://自新世界.com/404.html">
 <meta property="og:site_name" content="自新世界">
 <meta property="og:description" content="May the Force be with you :&amp;#41;">
 <meta property="og:locale" content="zh_CN">
@@ -454,7 +454,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

@@ -229,7 +229,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2021-01-06_img-make" itemprop="url">
+          <a class="post-title-link" href="/2021-01-06_img-make.html" itemprop="url">
             <span itemprop="name">图床"永久链"</span>
           </a>
       </div>
@@ -249,7 +249,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2021-01-05_make-domainname" itemprop="url">
+          <a class="post-title-link" href="/2021-01-05_make-domainname.html" itemprop="url">
             <span itemprop="name">域名的使用</span>
           </a>
       </div>
@@ -272,7 +272,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2020-12-21_Use-hexo-next7" itemprop="url">
+          <a class="post-title-link" href="/2020-12-21_Use-hexo-next7.html" itemprop="url">
             <span itemprop="name">hexo-next7食用方法</span>
           </a>
       </div>
@@ -292,7 +292,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2020-12-07_blog-make" itemprop="url">
+          <a class="post-title-link" href="/2020-12-07_blog-make.html" itemprop="url">
             <span itemprop="name">博客搭建</span>
           </a>
       </div>
@@ -522,7 +522,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

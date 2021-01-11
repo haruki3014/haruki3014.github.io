@@ -229,7 +229,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2021-01-07_cloud-make" itemprop="url">
+          <a class="post-title-link" href="/2021-01-07_cloud-make.html" itemprop="url">
             <span itemprop="name">网盘搭建</span>
           </a>
       </div>
@@ -252,7 +252,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2020-12-22_filesystem-and-basicoperations" itemprop="url">
+          <a class="post-title-link" href="/2020-12-22_filesystem-and-basicoperations.html" itemprop="url">
             <span itemprop="name">04、了解文件系统和基本操作</span>
           </a>
       </div>
@@ -482,7 +482,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

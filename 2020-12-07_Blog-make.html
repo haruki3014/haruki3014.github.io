@@ -25,7 +25,7 @@
   <meta name="description" content="前言&amp;#8195;&amp;#8195;搭建这个博客之前，看了许多其他很好的博客，大多是hexo，因为方便，在github上部署，用来免费存放，或者在云服务器上部署。前者受限于github众所周知的原因，访问并不理想，还不算上大文件。后者每年有服务器开销，资源日积月累导致存储的增长，还是上个“免费的云”吧。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="博客搭建">
-<meta property="og:url" content="http://自新世界.com/2020-12-07_blog-make">
+<meta property="og:url" content="http://自新世界.com/2020-12-07_blog-make.html">
 <meta property="og:site_name" content="自新世界">
 <meta property="og:description" content="前言&amp;#8195;&amp;#8195;搭建这个博客之前，看了许多其他很好的博客，大多是hexo，因为方便，在github上部署，用来免费存放，或者在云服务器上部署。前者受限于github众所周知的原因，访问并不理想，还不算上大文件。后者每年有服务器开销，资源日积月累导致存储的增长，还是上个“免费的云”吧。">
 <meta property="og:locale" content="zh_CN">
@@ -209,7 +209,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://自新世界.com/2020-12-07_blog-make">
+    <link itemprop="mainEntityOfPage" href="http://自新世界.com/2020-12-07_blog-make.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -291,7 +291,7 @@
   <!--本文链接-->
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="http://自新世界.com/2020-12-07_blog-make" title="博客搭建">http://自新世界.com/2020-12-07_blog-make</a>
+      <a href="http://自新世界.com/2020-12-07_blog-make.html" title="博客搭建">http://自新世界.com/2020-12-07_blog-make.html</a>
   </li>
   
   
@@ -312,7 +312,7 @@
     <div class="post-nav">
       <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2020-12-12_linux-synopsis-install" rel="next" title="01、Linux的简介和安装">
+    <a href="/2020-12-12_linux-synopsis-install.html" rel="next" title="01、Linux的简介和安装">
       01、Linux的简介和安装 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -536,7 +536,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;

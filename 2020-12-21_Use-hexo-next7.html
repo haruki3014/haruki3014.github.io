@@ -25,7 +25,7 @@
   <meta name="description" content="博客启用（前略环境搭建）&amp;#8195;&amp;#8195;新建文件夹，之后在其中执行：hexo init。&amp;#8195;&amp;#8195;hexo-next7官方git：https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next&amp;#8195;&amp;#8195;hexo-next8官方git：https:&#x2F;&#x2F;github.com&#x2F;next-theme&#x2F;hexo-theme-next">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo-next7食用方法">
-<meta property="og:url" content="http://自新世界.com/2020-12-21_Use-hexo-next7">
+<meta property="og:url" content="http://自新世界.com/2020-12-21_Use-hexo-next7.html">
 <meta property="og:site_name" content="自新世界">
 <meta property="og:description" content="博客启用（前略环境搭建）&amp;#8195;&amp;#8195;新建文件夹，之后在其中执行：hexo init。&amp;#8195;&amp;#8195;hexo-next7官方git：https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next&amp;#8195;&amp;#8195;hexo-next8官方git：https:&#x2F;&#x2F;github.com&#x2F;next-theme&#x2F;hexo-theme-next">
 <meta property="og:locale" content="zh_CN">
@@ -210,7 +210,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://自新世界.com/2020-12-21_Use-hexo-next7">
+    <link itemprop="mainEntityOfPage" href="http://自新世界.com/2020-12-21_Use-hexo-next7.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -290,11 +290,11 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020-12-12_command-and-help" rel="prev" title="03、运行命令和获取帮助">
+    <a href="/2020-12-12_command-and-help.html" rel="prev" title="03、运行命令和获取帮助">
       <i class="fa fa-chevron-left"></i> 03、运行命令和获取帮助
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020-12-22_filesystem-and-basicoperations" rel="next" title="04、了解文件系统和基本操作">
+    <a href="/2020-12-22_filesystem-and-basicoperations.html" rel="next" title="04、了解文件系统和基本操作">
       04、了解文件系统和基本操作 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -518,7 +518,7 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
     view     : 'FitH'
   };
   let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
-  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
 
   if (NexT.utils.supportsPDFs()) {
     element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
