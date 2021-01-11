@@ -6,7 +6,7 @@
   <link href="http://自新世界.com/atom.xml" rel="self"/>
   
   <link href="http://自新世界.com/"/>
-  <updated>2021-01-11T08:28:00.819Z</updated>
+  <updated>2021-01-11T08:39:32.734Z</updated>
   <id>http://自新世界.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://自新世界.com/2021-01-07_cloud-make"/>
     <id>http://自新世界.com/2021-01-07_cloud-make</id>
     <published>2021-01-06T16:00:01.000Z</published>
-    <updated>2021-01-11T08:28:00.819Z</updated>
+    <updated>2021-01-11T08:39:32.734Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Onedrive-Oneindex"><a href="#Onedrive-Oneindex" class="headerlink" title="Onedrive-Oneindex"></a>Onedrive-Oneindex</h1><p>demo：null</p><h1 id="服务器-对象存储"><a href="#服务器-对象存储" class="headerlink" title="服务器-对象存储"></a>服务器-对象存储</h1><p>demo：null</p>]]></content>
     
@@ -33,6 +33,8 @@
     <category term="杂物箱" scheme="http://自新世界.com/categories/%E6%9D%82%E7%89%A9%E7%AE%B1/"/>
     
     
+    <category term="对象存储" scheme="http://自新世界.com/tags/%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/"/>
+    
     <category term="待补充" scheme="http://自新世界.com/tags/%E5%BE%85%E8%A1%A5%E5%85%85/"/>
     
   </entry>
@@ -42,12 +44,12 @@
     <link href="http://自新世界.com/2021-01-06_img-make"/>
     <id>http://自新世界.com/2021-01-06_img-make</id>
     <published>2021-01-05T16:00:01.000Z</published>
-    <updated>2021-01-11T02:58:56.833Z</updated>
+    <updated>2021-01-11T08:38:54.461Z</updated>
     
-    <content type="html"><![CDATA[<p>&#8195;&#8195;基于对象存储及自定义源站域名，理论”永久链”图床，可在各云服务商或个人服务器间迁移数据<br>&#8195;&#8195;如果你是国外的域名，markdown是国内使用，需要绑定第三方dns，这里以<a href="https://www.namesilo.com/">namesilo</a>域名绑定<a href="https://www.dnspod.cn/">dnspod</a>为例。</p><a id="more"></a>  <h1 id="namesilo配置-国内备案域名可跳过此步骤"><a href="#namesilo配置-国内备案域名可跳过此步骤" class="headerlink" title="namesilo配置(国内备案域名可跳过此步骤)"></a>namesilo配置(国内备案域名可跳过此步骤)</h1><p><img src="https://bika.picacg.download/haruki/281BCA8978E663D1AA05423137C07932E35E89FDDDCA7A23445455A7723F219C.png"></p><p>进入域名管理页面<br>将原有三个dns删除替换为以下内容，提交</p><blockquote><p>f1g1ns1.dnspod.net<br>  f1g1ns2.dnspod.net</p></blockquote><p>返回域名管理页面，点击域名所在行右侧蓝色地球，进入域名解析页面，删除所有的解析内容即可。</p><h1 id="dnspod配置"><a href="#dnspod配置" class="headerlink" title="dnspod配置"></a>dnspod配置</h1><p>进入dnspod管理页面，添加你的域名，点击dns刷新<br>创建公有读私有写存储桶，并复制存储桶域名<br><img src="https://bika.picacg.download/haruki/5C3AE90E330110085424836989AC2F904D961280A441B32B909654094DCFE2B2.png" alt="添加自定义源站域名"><br>到dnspod解析页面，添加CNAME解析<br>需要注意的是，namesilo的dns可能需要等几十分钟才会刷新，在此之前访问域名可能是到达不了存储桶的<br><img src="https://bika.picacg.download/haruki/8F8DD7DD34489C8833781A9902AAB2865C8E9D67E9CDE6C80709397DBBA92B6F.png"></p><h1 id="ssl证书以及防盗链设置"><a href="#ssl证书以及防盗链设置" class="headerlink" title="ssl证书以及防盗链设置"></a>ssl证书以及防盗链设置</h1><p>在dnspod或者腾讯云域名注册界面申请免费ssl证书并下载，解压。在存储桶域名绑定页面进行证书绑定，用记事本打开Nginx里的文本并复制到对应区域<br><img src="https://bika.picacg.download/haruki/6B12C37D45ECE58C98F26DA67CDFC60F73ADB472ECBD37D20EFC839F64BD4A39.png"></p><p>测试一下，不挂t的情况下自定义域名可以访问图片，以后的迁移只需copy文件，域名重新对应一下CNAME即可，markdown文章的图片地址不需要变动。<br><img src="https://bika.picacg.download/haruki/4DEED59F8DC599B65736DFA4B81C4DB1C4028557408CFBA90B1691DDDE70D6EB.png"></p><p>存储桶防盗链设置如下，配置完防盗链之后本地预览和网页地址栏输入是访问不了对象存储的，只有白名单内的ip才能访问<br><img src="https://bika.picacg.download/haruki/358EF065F5956500257330DDE1493957881F0BD1C0294CB5E6115CDF7805CE40.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>&#8195;&#8195;如果你是国外的域名，markdown是国内使用，需要绑定国内第三方dns，这里以<a href="https://www.namesilo.com/">namesilo</a>域名绑定<a href="https://www.dnspod.cn/">dnspod</a>为例。</p><!-- more -->  <h1 id="namesilo配置-国内备案域名可跳过此步骤"><a href="#namesilo配置-国内备案域名可跳过此步骤" class="headerlink" title="namesilo配置(国内备案域名可跳过此步骤)"></a>namesilo配置(国内备案域名可跳过此步骤)</h1><p><img src="https://bika.picacg.download/haruki/281BCA8978E663D1AA05423137C07932E35E89FDDDCA7A23445455A7723F219C.png"></p><p>进入域名管理页面<br>将原有三个dns删除替换为以下内容，提交</p><blockquote><p>f1g1ns1.dnspod.net<br>  f1g1ns2.dnspod.net</p></blockquote><p>返回域名管理页面，点击域名所在行右侧蓝色地球，进入域名解析页面，删除所有的解析内容即可。</p><h1 id="dnspod配置"><a href="#dnspod配置" class="headerlink" title="dnspod配置"></a>dnspod配置</h1><p>进入dnspod管理页面，添加你的域名，点击dns刷新<br>创建公有读私有写存储桶，并复制存储桶域名<br><img src="https://bika.picacg.download/haruki/5C3AE90E330110085424836989AC2F904D961280A441B32B909654094DCFE2B2.png" alt="添加自定义源站域名"><br>到dnspod解析页面，添加CNAME解析<br>需要注意的是，namesilo的dns可能需要等几十分钟才会刷新，在此之前访问域名可能是到达不了存储桶的<br><img src="https://bika.picacg.download/haruki/8F8DD7DD34489C8833781A9902AAB2865C8E9D67E9CDE6C80709397DBBA92B6F.png"></p><h1 id="ssl证书以及防盗链设置"><a href="#ssl证书以及防盗链设置" class="headerlink" title="ssl证书以及防盗链设置"></a>ssl证书以及防盗链设置</h1><p>在dnspod或者腾讯云域名注册界面申请免费ssl证书并下载，解压。在存储桶域名绑定页面进行证书绑定，用记事本打开Nginx里的文本并复制到对应区域<br><img src="https://bika.picacg.download/haruki/6B12C37D45ECE58C98F26DA67CDFC60F73ADB472ECBD37D20EFC839F64BD4A39.png"></p><p>测试一下，不挂t的情况下自定义域名可以访问图片，以后的迁移只需copy文件，域名重新对应一下CNAME即可，markdown文章的图片地址不需要变动。<br><img src="https://bika.picacg.download/haruki/4DEED59F8DC599B65736DFA4B81C4DB1C4028557408CFBA90B1691DDDE70D6EB.png"></p><p>存储桶防盗链设置如下，配置完防盗链之后本地预览和网页地址栏输入是访问不了对象存储的，只有白名单内的ip才能访问<br><img src="https://bika.picacg.download/haruki/358EF065F5956500257330DDE1493957881F0BD1C0294CB5E6115CDF7805CE40.png"></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;&amp;#8195;&amp;#8195;基于对象存储及自定义源站域名，理论”永久链”图床，可在各云服务商或个人服务器间迁移数据&lt;br&gt;&amp;#8195;&amp;#8195;如果你是国外的域名，markdown是国内使用，需要绑定第三方dns，这里以&lt;a href=&quot;https://www.namesilo.com/&quot;&gt;namesilo&lt;/a&gt;域名绑定&lt;a href=&quot;https://www.dnspod.cn/&quot;&gt;dnspod&lt;/a&gt;为例。&lt;/p&gt;</summary>
+    <summary type="html">基于对象存储及自定义源站域名，理论&quot;永久链&quot;图床，可在各云服务商或个人服务器间迁移数据</summary>
     
     
     
@@ -84,7 +86,7 @@
     <link href="http://自新世界.com/2021-01-05_make-domainname"/>
     <id>http://自新世界.com/2021-01-05_make-domainname</id>
     <published>2021-01-04T16:00:01.000Z</published>
-    <updated>2021-01-11T03:02:35.377Z</updated>
+    <updated>2021-01-11T08:40:06.305Z</updated>
     
     <content type="html"><![CDATA[<h1 id="域名服务商"><a href="#域名服务商" class="headerlink" title="域名服务商"></a>域名服务商</h1><p>&#8195;&#8195;个人站除开com、net这两个域名，其他推荐选择国外服务商进行注册。以下仅列举一些我接触过的，还有很多其他的服务商就不一一列举了  </p><ul><li>国内<ul><li><a href="https://wanwang.aliyun.com/">阿里云万网</a>：尚可，只提供com和net、tv、cc这四个域名的隐藏个人信息服务</li><li><a href="https://www.huaweicloud.com/product/domain.html">华为云domain</a>：在企鹅和阿里中间的位置</li><li><a href="https://dnspod.cloud.tencent.com/">腾讯云dnspod</a>：我目前所有com域名都在这个上面</li><li><a href="https://cloud.baidu.com/product/bcd.html">百度云BCD</a>：新用户优惠不好，域名隐私里写的和实际不符</li></ul></li><li>国外<ul><li><a href="https://sg.godaddy.com/">GoDaddy</a>：全球最大的域名服务商，当然价格就…也是贵的，隐藏个人信息还要收费</li><li><a href="https://www.namesilo.com/">namesilo</a>：价格便宜，比国内的稍微贵一丢丢，所有域名均支持免费whois隐藏个人信息<a id="more"></a><h1 id="选购指南"><a href="#选购指南" class="headerlink" title="选购指南"></a>选购指南</h1>&#8195;&#8195;对于正常内容的网站，.com和.net选国内的就可以了，价格比国外便宜，安全性几个顶级服务商一般不会出问题，而且这两个后缀的域名默认隐藏个人信息。<br>&#8195;&#8195;其他的域名，比如work、link、site、me…请参考各个国内服务商的域名隐私保护指南(<a href="https://wanwang.aliyun.com/domain/whoisprotect/">阿里云</a>、<a href="https://support.huaweicloud.com/domain_faq/domain_faq_0002.html">华为云</a>、<a href="https://cloud.tencent.com/document/product/242/30404">腾讯云</a>、<a href="https://cloud.baidu.com/doc/BCD/s/bjwvym8qn">百度云</a>)，他们是不支持非主流域名隐藏注册人姓名和注册邮箱的，根据我的实践，腾讯和阿里的top域名，百度和腾讯的xyz域名，均不支持whois隐藏，虽然ICANN和欧盟在2018年已经要求whois查询结果不再展示域名所有者、联系邮箱等信息，但有些域名服务商对于非主流域名并没有默认隐藏。<br>&#8195;&#8195;这些非主流的域名，我一般作为跳转域名用，当然也可以给小网站，出于whois查询隐私考虑，这些域名最好选择国外的，好处有很多就不多说了，至少whois查询不到注册人。<br>&#8195;&#8195;然后是国外服务商的选择，我选择的是namesilo，因为便宜且支持隐藏个人信息，无需备案就可跳转。食用方法参考：<a href="https://zhuanlan.zhihu.com/p/33921436">https://zhuanlan.zhihu.com/p/33921436</a> 。跳转指定url参考：<a href="https://www.namesilo.com/Support/Domain-Forwarding">https://www.namesilo.com/Support/Domain-Forwarding</a> 。Google邮箱注册在移动端gmail注册即可不绑定手机，最开始的手机号只为验证是否真人。</li></ul></li></ul><p>价格对比1：<a href="https://www.domain265.com/">https://www.domain265.com/</a><br>价格对比2: <a href="https://namebeta.com/">https://namebeta.com/</a><br>whois查询：<a href="https://domain.163yun.com/">https://domain.163yun.com/</a><br>ICANN更多信息：<a href="https://www.icann.org/news/announcement-2018-05-22-zh">https://www.icann.org/news/announcement-2018-05-22-zh</a></p><h1 id="域名跳转指定url方案"><a href="#域名跳转指定url方案" class="headerlink" title="域名跳转指定url方案"></a>域名跳转指定url方案</h1><p>方案一：github仓库跳转<br>准备：一个github账号，一个域名<br>思路：域名商那里CNAME解析到你的github域名 yourname.github.io ，github仓库内CNAME写入域名并开启github page，写入一个js加载时跳转事件即可  </p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"><span class="built_in">window</span>.location.href = <span class="string">&quot;域名网址&quot;</span></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p>方案二：对象存储跳转<br>准备：能开启静态网页的对象存储，一个域名<br>思路：一级域名CNAME解析到对象存储的website域名上，存储桶只存放一个index.html，之后写入JavaScript跳转即可<br>具体步骤：  </p><ol><li>创建一个非大陆地区的公有读私有写存储桶，推荐中国香港节点。</li><li>开启存储桶的静态网站模块，并打开安全模块中的服务器端加密。</li><li>在对象存储域名管理里填写自定义源站域名，在dnspod中添加对应CNAME解析，并上传对应证书密钥到源站上。</li><li>对象存储上传一个index.html文件，写入以下代码<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"><span class="built_in">window</span>.location.href = <span class="string">&quot;域名网址&quot;</span></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
@@ -106,8 +108,6 @@
     
     <category term="博客搭建" scheme="http://自新世界.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-    
-    <category term="域名" scheme="http://自新世界.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
