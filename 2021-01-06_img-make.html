@@ -31,12 +31,12 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://bika.picacg.download/haruki/281BCA8978E663D1AA05423137C07932E35E89FDDDCA7A23445455A7723F219C.png">
 <meta property="og:image" content="https://bika.picacg.download/haruki/5C3AE90E330110085424836989AC2F904D961280A441B32B909654094DCFE2B2.png">
-<meta property="og:image" content="https://bika.picacg.download/haruki/8F8DD7DD34489C8833781A9902AAB2865C8E9D67E9CDE6C80709397DBBA92B6F.png">
+<meta property="og:image" content="https://bika.picacg.download/haruki/E315A71C14F3F94218BC781296F5F37A1B1996BCEF1D797ECA20A64597AFD18F.png">
 <meta property="og:image" content="https://bika.picacg.download/haruki/6B12C37D45ECE58C98F26DA67CDFC60F73ADB472ECBD37D20EFC839F64BD4A39.png">
 <meta property="og:image" content="https://bika.picacg.download/haruki/4DEED59F8DC599B65736DFA4B81C4DB1C4028557408CFBA90B1691DDDE70D6EB.png">
 <meta property="og:image" content="https://bika.picacg.download/haruki/358EF065F5956500257330DDE1493957881F0BD1C0294CB5E6115CDF7805CE40.png">
 <meta property="article:published_time" content="2021-01-05T16:00:01.000Z">
-<meta property="article:modified_time" content="2021-01-13T00:55:03.802Z">
+<meta property="article:modified_time" content="2021-01-13T01:28:26.355Z">
 <meta property="article:author" content="Haruki">
 <meta property="article:tag" content="对象存储">
 <meta name="twitter:card" content="summary">
@@ -247,7 +247,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-01-13 08:55:03" itemprop="dateModified" datetime="2021-01-13T08:55:03+08:00">2021-01-13</time>
+                <time title="修改时间：2021-01-13 09:28:26" itemprop="dateModified" datetime="2021-01-13T09:28:26+08:00">2021-01-13</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -279,7 +279,7 @@
 <p>f1g1ns1.dnspod.net<br>  f1g1ns2.dnspod.net</p>
 </blockquote>
 <p>返回域名管理页面，点击域名所在行右侧蓝色地球，进入域名解析页面，删除所有的解析内容即可。</p>
-<h1 id="dnspod配置"><a href="#dnspod配置" class="headerlink" title="dnspod配置"></a>dnspod配置</h1><p>进入dnspod管理页面，添加你的域名，点击dns刷新<br>创建公有读私有写存储桶，并复制存储桶域名<br><img src="https://bika.picacg.download/haruki/5C3AE90E330110085424836989AC2F904D961280A441B32B909654094DCFE2B2.png" alt="添加自定义源站域名"><br>到dnspod解析页面，添加CNAME解析<br>需要注意的是，namesilo的dns可能需要等几十分钟才会刷新，在此之前访问域名可能是到达不了存储桶的<br><img src="https://bika.picacg.download/haruki/8F8DD7DD34489C8833781A9902AAB2865C8E9D67E9CDE6C80709397DBBA92B6F.png"></p>
+<h1 id="dnspod配置"><a href="#dnspod配置" class="headerlink" title="dnspod配置"></a>dnspod配置</h1><p>进入dnspod管理页面，添加你的域名，点击dns刷新<br>创建公有读私有写存储桶，并复制存储桶域名<br><img src="https://bika.picacg.download/haruki/5C3AE90E330110085424836989AC2F904D961280A441B32B909654094DCFE2B2.png" alt="添加自定义源站域名"><br>到dnspod解析页面，添加CNAME解析<br>需要注意的是，namesilo的dns可能需要等几十分钟才会刷新，在此之前访问域名可能是到达不了存储桶的<br><img src="https://bika.picacg.download/haruki/E315A71C14F3F94218BC781296F5F37A1B1996BCEF1D797ECA20A64597AFD18F.png"></p>
 <h1 id="ssl证书以及防盗链设置"><a href="#ssl证书以及防盗链设置" class="headerlink" title="ssl证书以及防盗链设置"></a>ssl证书以及防盗链设置</h1><p>在dnspod或者腾讯云域名注册界面申请免费ssl证书并下载，解压。在存储桶域名绑定页面进行证书绑定，用记事本打开Nginx里的文本并复制到对应区域<br><img src="https://bika.picacg.download/haruki/6B12C37D45ECE58C98F26DA67CDFC60F73ADB472ECBD37D20EFC839F64BD4A39.png"></p>
 <p>测试一下，不挂t的情况下自定义域名可以访问图片，以后的迁移只需copy文件，域名重新对应一下CNAME即可，markdown文章的图片地址不需要变动。<br><img src="https://bika.picacg.download/haruki/4DEED59F8DC599B65736DFA4B81C4DB1C4028557408CFBA90B1691DDDE70D6EB.png"></p>
 <p>存储桶防盗链设置如下，配置完防盗链之后本地预览和网页地址栏输入是访问不了对象存储的，只有白名单内的ip才能访问<br><img src="https://bika.picacg.download/haruki/358EF065F5956500257330DDE1493957881F0BD1C0294CB5E6115CDF7805CE40.png"></p>
