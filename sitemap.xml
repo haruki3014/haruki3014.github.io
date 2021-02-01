@@ -30,34 +30,6 @@
   </url>
   
   <url>
-    <loc>http://自新世界.com/2020-12-22_filesystem-and-basicoperations.html</loc>
-    
-    <lastmod>2021-01-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/2020-12-12_command-and-help.html</loc>
-    
-    <lastmod>2021-01-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/2020-12-12_how-to-use-linux.html</loc>
-    
-    <lastmod>2021-01-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/2020-12-12_linux-synopsis-install.html</loc>
-    
-    <lastmod>2021-01-11</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://自新世界.com/links/index.html</loc>
     
     <lastmod>2020-12-16</lastmod>
@@ -102,7 +74,7 @@
 
   <url>
     <loc>http://自新世界.com/</loc>
-    <lastmod>2021-01-29</lastmod>
+    <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,42 +82,21 @@
   
   <url>
     <loc>http://自新世界.com/tags/tools/</loc>
-    <lastmod>2021-01-29</lastmod>
+    <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://自新世界.com/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/</loc>
-    <lastmod>2021-01-29</lastmod>
+    <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://自新世界.com/tags/%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/</loc>
-    <lastmod>2021-01-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/tags/linux/</loc>
-    <lastmod>2021-01-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/tags/rhel8/</loc>
-    <lastmod>2021-01-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/tags/%E5%BE%85%E8%A1%A5%E5%85%85/</loc>
-    <lastmod>2021-01-29</lastmod>
+    <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -154,21 +105,14 @@
   
   <url>
     <loc>http://自新世界.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2021-01-29</lastmod>
+    <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://自新世界.com/categories/%E6%9D%82%E7%89%A9%E7%AE%B1/</loc>
-    <lastmod>2021-01-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/categories/linux-for-rhel8/</loc>
-    <lastmod>2021-01-29</lastmod>
+    <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
