@@ -6,7 +6,7 @@
   <link href="http://自新世界.com/atom.xml" rel="self"/>
   
   <link href="http://自新世界.com/"/>
-  <updated>2021-01-29T18:22:29.073Z</updated>
+  <updated>2021-02-01T11:50:25.798Z</updated>
   <id>http://自新世界.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://自新世界.com/2021-01-06_img-make.html"/>
     <id>http://自新世界.com/2021-01-06_img-make.html</id>
     <published>2021-01-05T16:00:01.000Z</published>
-    <updated>2021-01-29T18:22:29.073Z</updated>
+    <updated>2021-02-01T11:50:25.798Z</updated>
     
-    <content type="html"><![CDATA[<p>&#8195;&#8195;需要准备对象存储及域名，理论”永久链”图床，可在各云服务商或个人服务器间迁移数据<br>&#8195;&#8195;如果你是国外的域名，markdown是国内使用，需要绑定国内第三方dns，这里以<a href="https://www.namesilo.com/">namesilo</a>域名绑定<a href="https://www.dnspod.cn/">dnspod</a>为例。</p><a id="more"></a>  <h1 id="namesilo配置-国内备案域名可跳过此步骤"><a href="#namesilo配置-国内备案域名可跳过此步骤" class="headerlink" title="namesilo配置(国内备案域名可跳过此步骤)"></a>namesilo配置(国内备案域名可跳过此步骤)</h1><p><img src="https://image.自新世界.com/haruki/281BCA8978E663D1AA05423137C07932E35E89FDDDCA7A23445455A7723F219C.png"></p><p>进入域名管理页面<br>将原有三个dns删除替换为以下内容，提交</p><blockquote><p>f1g1ns1.dnspod.net<br>  f1g1ns2.dnspod.net</p></blockquote><p>返回域名管理页面，点击域名所在行右侧蓝色地球，进入域名解析页面，删除所有的解析内容即可。</p><h1 id="dnspod配置"><a href="#dnspod配置" class="headerlink" title="dnspod配置"></a>dnspod配置</h1><p>进入dnspod管理页面，添加你的域名，点击dns刷新<br>创建公有读私有写存储桶，并复制存储桶域名<br><img src="https://image.自新世界.com/haruki/5C3AE90E330110085424836989AC2F904D961280A441B32B909654094DCFE2B2.png" alt="添加自定义源站域名"><br>到dnspod解析页面，添加CNAME解析<br>需要注意的是，namesilo的dns可能需要等几十分钟才会刷新，在此之前访问域名可能是到达不了存储桶的<br><img src="https://image.自新世界.com/haruki/E315A71C14F3F94218BC781296F5F37A1B1996BCEF1D797ECA20A64597AFD18F.png"></p><h1 id="ssl证书以及防盗链设置"><a href="#ssl证书以及防盗链设置" class="headerlink" title="ssl证书以及防盗链设置"></a>ssl证书以及防盗链设置</h1><p>在dnspod或者腾讯云域名注册界面申请免费ssl证书并下载，解压。在存储桶域名绑定页面进行证书绑定，用记事本打开Nginx里的文本并复制到对应区域<br><img src="https://image.自新世界.com/haruki/6B12C37D45ECE58C98F26DA67CDFC60F73ADB472ECBD37D20EFC839F64BD4A39.png"></p><p>测试一下，不挂t的情况下自定义域名可以访问图片，以后的迁移只需copy文件，域名重新对应一下CNAME即可，markdown文章的图片地址不需要变动。<br><img src="https://image.自新世界.com/haruki/4DEED59F8DC599B65736DFA4B81C4DB1C4028557408CFBA90B1691DDDE70D6EB.png"></p><p>存储桶防盗链设置如下，配置完防盗链之后本地预览和网页地址栏输入是访问不了对象存储的，只有白名单内的ip才能访问<br><img src="https://image.自新世界.com/haruki/358EF065F5956500257330DDE1493957881F0BD1C0294CB5E6115CDF7805CE40.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>&#8195;&#8195;需要准备对象存储及域名，理论”永久链”图床，可在各云服务商或个人服务器间迁移数据<br>&#8195;&#8195;如果你是国外的域名，markdown是国内使用，需要绑定国内第三方dns，这里以<a href="https://www.namesilo.com/">namesilo</a>域名绑定<a href="https://www.dnspod.cn/">dnspod</a>为例。</p><a id="more"></a>  <h1 id="namesilo配置-国内备案域名可跳过此步骤"><a href="#namesilo配置-国内备案域名可跳过此步骤" class="headerlink" title="namesilo配置(国内备案域名可跳过此步骤)"></a>namesilo配置(国内备案域名可跳过此步骤)</h1><p><img src="https://img.自新世界.com/blog/281BCA8978E663D1AA05423137C07932E35E89FDDDCA7A23445455A7723F219C.png"></p><p>进入域名管理页面<br>将原有三个dns删除替换为以下内容，提交</p><blockquote><p>f1g1ns1.dnspod.net<br>  f1g1ns2.dnspod.net</p></blockquote><p>返回域名管理页面，点击域名所在行右侧蓝色地球，进入域名解析页面，删除所有的解析内容即可。</p><h1 id="dnspod配置"><a href="#dnspod配置" class="headerlink" title="dnspod配置"></a>dnspod配置</h1><p>进入dnspod管理页面，添加你的域名，点击dns刷新<br>创建公有读私有写存储桶，并复制存储桶域名<br><img src="https://img.自新世界.com/blog/5C3AE90E330110085424836989AC2F904D961280A441B32B909654094DCFE2B2.png" alt="添加自定义源站域名"><br>到dnspod解析页面，添加CNAME解析<br>需要注意的是，namesilo的dns可能需要等几十分钟才会刷新，在此之前访问域名可能是到达不了存储桶的<br><img src="https://img.自新世界.com/blog/E315A71C14F3F94218BC781296F5F37A1B1996BCEF1D797ECA20A64597AFD18F.png"></p><h1 id="ssl证书以及防盗链设置"><a href="#ssl证书以及防盗链设置" class="headerlink" title="ssl证书以及防盗链设置"></a>ssl证书以及防盗链设置</h1><p>在dnspod或者腾讯云域名注册界面申请免费ssl证书并下载，解压。在存储桶域名绑定页面进行证书绑定，用记事本打开Nginx里的文本并复制到对应区域<br><img src="https://img.自新世界.com/blog/6B12C37D45ECE58C98F26DA67CDFC60F73ADB472ECBD37D20EFC839F64BD4A39.png"></p><p>测试一下，不挂t的情况下自定义域名可以访问图片，以后的迁移只需copy文件，域名重新对应一下CNAME即可，markdown文章的图片地址不需要变动。<br><img src="https://img.自新世界.com/blog/4DEED59F8DC599B65736DFA4B81C4DB1C4028557408CFBA90B1691DDDE70D6EB.png"></p><p>存储桶防盗链设置如下，配置完防盗链之后本地预览和网页地址栏输入是访问不了对象存储的，只有白名单内的ip才能访问<br><img src="https://img.自新世界.com/blog/358EF065F5956500257330DDE1493957881F0BD1C0294CB5E6115CDF7805CE40.png"></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;&amp;#8195;&amp;#8195;需要准备对象存储及域名，理论”永久链”图床，可在各云服务商或个人服务器间迁移数据&lt;br&gt;&amp;#8195;&amp;#8195;如果你是国外的域名，markdown是国内使用，需要绑定国内第三方dns，这里以&lt;a href=&quot;https://www.namesilo.com/&quot;&gt;namesilo&lt;/a&gt;域名绑定&lt;a href=&quot;https://www.dnspod.cn/&quot;&gt;dnspod&lt;/a&gt;为例。&lt;/p&gt;</summary>
@@ -107,25 +107,6 @@
     
     
     <category term="tools" scheme="http://自新世界.com/tags/tools/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客搭建</title>
-    <link href="http://自新世界.com/2020-12-07_blog-make.html"/>
-    <id>http://自新世界.com/2020-12-07_blog-make.html</id>
-    <published>2020-12-06T16:00:01.000Z</published>
-    <updated>2020-12-06T16:00:01.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&#8195;&#8195;搭建这个博客之前，看了许多其他很好的博客，大多是hexo，因为方便，在github上部署，用来免费存放，或者在云服务器上部署。前者受限于github众所周知的原因，访问并不理想，还不算上大文件。后者每年有服务器开销，资源日积月累导致存储的增长，还是上个“免费的云”吧。</p><a id="more"></a><p>&#8195;&#8195;最开始使用的是lofter来记东西，它作为一个移动端的亚文化社区博客，对于技术文档的兼容并不好，但是作为一个时间流，记录多图或者短文非常棒，而且支持创建多个子博客，互不干扰，独立子域名。</p><p>&#8195;&#8195;之后就是寻找长文章合集的博客，首先想到的是CSDN，写bug时百度到最多的就是它，侧边全是广告和不知名的链接，pass。下一个，简书，因为简书自身带有头条或者豆瓣这种生活类资讯信息服务，侧边栏也还是有推荐，下一个，继续找，然而国内博客基本都被微博取代了，有看到说用qq空间做博客的，确实企鹅家大业大，不会一下子无了，但写博客，还是想分享的，所以再找找吧，翻协同办公的软件，墨刀、石墨文档、钉钉、腾讯文档….</p><p>&#8195;&#8195;最后看见一个语雀，查下背景阿里的，那可以了，虽然上限只有10G上传流量，但后期可以买，再之后是它的功能，有博客、协同办公等，目前界面没有广告，UI也不错，和lofter一样可以自定义多个子域名进行分类，所以选择了它作为长文章和项目合集的存放地，接着就是做个导航页把他俩适配一下再上”云“就可以了。</p><h1 id="导航：github-hexo"><a href="#导航：github-hexo" class="headerlink" title="导航：github+hexo"></a><a href="https://haruki3014.top/">导航</a>：github+hexo</h1><p>&#8195;&#8195;导航就是这个网站，方法是在哔哩上找的，<a href="https://www.bilibili.com/video/BV1je41147Ma">link点这里</a>，先按照他的方法把hexo本地环境和github的仓库搭建好，然后就是找一个简洁主题做导航就行了。</p><h1 id="短文：lofter"><a href="#短文：lofter" class="headerlink" title="短文：lofter"></a><a href="https://haruki3014.lofter.com/">短文</a>：lofter</h1><p>&#8195;&#8195;lofter不支持外链，搜索引擎不收录，发布资源会审核，但对于图片的保存很好，应该是原图，背后是网易，作为一个记录日常遇见的技术问题的保存和分类整理，可以做的很好，还有很多模板可选，各个子博客可选相互独立或者link。</p><h1 id="合集：语雀"><a href="#合集：语雀" class="headerlink" title="合集：语雀"></a><a href="https://www.yuque.com/haruki3014">合集</a>：语雀</h1><p>&#8195;&#8195;支持markdown的导入和导出 ，所有文档在云端，可以链接外链，是可靠性的保障。</p><h1 id="文档：markdown-Tyora"><a href="#文档：markdown-Tyora" class="headerlink" title="文档：markdown+Tyora"></a>文档：markdown+Tyora</h1><p>&#8195;&#8195;<a href="https://zhuanlan.zhihu.com/p/138878534">阿里图床点这里</a></p><p>&#8195;&#8195;文档是笔记、博客的基础。markdown我是搭建博客时才了解的，后来一想，既然这么方便就多软件链接一下，多备份，文档所需要的图也不多，对象存储还算便宜，当然也可以不用付费用免费图床，后果就是图片可靠性降低。</p><p>&#8195;&#8195;首先用Tyora编写文档，之后根据自己喜好，上传到github的博客或云同步，markdown文档可以同步到有道云笔记、印象笔记和语雀，这三者的的免费容量足够我们日常的文档编写，图片存放对象存储里，三个厂商保证你的文档文字安全，一个对象存储保障图片安全。</p><h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p>&#8195;&#8195;总的来说，对于一个极其注重数据可靠性的我，该方案唯一缺点就是图床，markdown文档需要的图片链接，一旦图床和某厂商绑定，之后需要迁移时，大量的命名就会非常麻烦，费用我又去看了下分三类，累计多了，也许不便。虽如此，Tyora的记录和云同步的文字可靠性确实极高，阅读也比word的体验更好，还是很好的。</p><p>&#8195;&#8195;根据实践的方案，免费图床上传图片后没有二级域名，生成的图片链接最后是随机字符，而阿里云和腾讯云的付费对象存储可行，上传文件时，只要不是中文（包括但不限于字符），online文件名称就会和源文件名称一致，生成的链接也会是以原名称结尾，为中文或带有中文字符时，中文部分会被转译为其他编码，且阿里云和腾讯云的中文转码后名称相同，对于上传文件的重命名，可以使用ReNamer这个软件，在规则中插入图片的hash256并批量替换原名称。迁移时先从对象存储中下载所有图片保存本地，然后上传到迁移的对象服务器上，之后本地的markdown丢linux上用替换前缀即可，云同步中，印象笔记和语雀是支持文本替换的，有道云笔记是不支持的。至此，可以说markdown记笔记和写博客，配合lofter短文本，是一个可靠性极高，日常使用只需付费对象存储的费用，就能体验多端同步，多人浏览，极速分享的云服务。</p>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&amp;#8195;&amp;#8195;搭建这个博客之前，看了许多其他很好的博客，大多是hexo，因为方便，在github上部署，用来免费存放，或者在云服务器上部署。前者受限于github众所周知的原因，访问并不理想，还不算上大文件。后者每年有服务器开销，资源日积月累导致存储的增长，还是上个“免费的云”吧。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客搭建" scheme="http://自新世界.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
     
   </entry>
   
