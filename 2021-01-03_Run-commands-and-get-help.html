@@ -22,15 +22,19 @@
     var CONFIG = {"hostname":"xn--rhq388ct6kcjm.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="自新世界">
-<meta property="og:url" content="http://自新世界.com/categories/%E6%9D%82%E7%89%A9%E7%AE%B1/index.html">
+  <meta name="description" content="学习目标 在提示符下执行命令 掌握命令的语法 学习使用一些简单命令 学会使用系统内部的一些帮助 学会使用red hat的在线文档  命令的语法  command options arguments     项与项之间以空格分隔开 options修饰一个命令的行为 单个字母作为选项前一般都带有-,例如-a,-b,-c或者-abc 单词作为选项前通常带有–,例如:–help   参数是一个文件名目录或">
+<meta property="og:type" content="article">
+<meta property="og:title" content="运行命令和获取帮助">
+<meta property="og:url" content="http://自新世界.com/2021-01-03_Run-commands-and-get-help.html">
 <meta property="og:site_name" content="自新世界">
+<meta property="og:description" content="学习目标 在提示符下执行命令 掌握命令的语法 学习使用一些简单命令 学会使用系统内部的一些帮助 学会使用red hat的在线文档  命令的语法  command options arguments     项与项之间以空格分隔开 options修饰一个命令的行为 单个字母作为选项前一般都带有-,例如-a,-b,-c或者-abc 单词作为选项前通常带有–,例如:–help   参数是一个文件名目录或">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-01-02T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-06-22T12:43:00.860Z">
 <meta property="article:author" content="Haruki">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://自新世界.com/categories/%E6%9D%82%E7%89%A9%E7%AE%B1/">
+<link rel="canonical" href="http://自新世界.com/2021-01-03_Run-commands-and-get-help.html">
 
 
 <script id="page-configurations">
@@ -38,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类: 杂物箱 | 自新世界</title>
+  <title>运行命令和获取帮助 | 自新世界</title>
   
 
 
@@ -198,53 +202,313 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">杂物箱
-          <small>分类</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://自新世界.com/2021-01-03_Run-commands-and-get-help.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Haruki">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="自新世界">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          运行命令和获取帮助
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-01-03 00:00:00" itemprop="dateCreated datePublished" datetime="2021-01-03T00:00:00+08:00">2021-01-03</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-06-22 20:43:00" itemprop="dateModified" datetime="2021-06-22T20:43:00+08:00">2021-06-22</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/linux-for-rhel8/" itemprop="url" rel="index"><span itemprop="name">linux for rhel8</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <h1 id="学习目标"><a href="#学习目标" class="headerlink" title="学习目标"></a>学习目标</h1><ul>
+<li>在提示符下执行命令</li>
+<li>掌握命令的语法</li>
+<li>学习使用一些简单命令</li>
+<li>学会使用系统内部的一些帮助</li>
+<li>学会使用red hat的在线文档</li>
+</ul>
+<h1 id="命令的语法"><a href="#命令的语法" class="headerlink" title="命令的语法"></a>命令的语法</h1><p>  command options arguments   </p>
+<ul>
+<li>项与项之间以空格分隔开</li>
+<li>options修饰一个命令的行为<ul>
+<li>单个字母作为选项前一般都带有-,例如-a,-b,-c或者-abc</li>
+<li>单词作为选项前通常带有–,例如:–help</li>
+</ul>
+</li>
+<li>参数是一个文件名目录或者具体的某个对象</li>
+<li>多个命令用;分隔 </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>选项</th>
+<th>参数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>做什么，如：passwd、ls、id</td>
+<td>修饰命令的行为（功能），如：-a、-l、-la</td>
+<td>具体的某个对象</td>
+</tr>
+</tbody></table>
+<h1 id="获取帮助"><a href="#获取帮助" class="headerlink" title="获取帮助"></a>获取帮助</h1><p>&#8195;&#8195;不要去尝试记住一切，不同级别的帮助资源： whatis、 command –help、 man、pinfo、 /usr/share/doc、 红帽官方产品文档 </p>
+<p><strong>whatis命令</strong>  </p>
+<ul>
+<li>显示命令的简短描述</li>
+<li>基于数据库的查询，定时更新</li>
+<li>在安装完后并不能马上使用</li>
+</ul>
+<p><strong>–help命令</strong>  </p>
+<ul>
+<li>列出命令常用的语法和参数</li>
+<li>大部分命令支持该选项</li>
+<li>特殊符号解读<ul>
+<li>在[]中的参数是可选的</li>
+<li>大写的参数或者在&lt;&gt;中都表示变量</li>
+<li>文本后面跟随…表示一个列表</li>
+<li>x|y|z表示”x 或者y或者z”</li>
+</ul>
+<ul>
+<li>-abc表示”任意-a,-b或者-c的任意组合”</li>
+</ul>
+</li>
+<li>例如：date –help</li>
+</ul>
+<p><strong>man使用方法：</strong><br>   man -k 关键字<br>   man [章节信息] 命令或者配置文件 </p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>空格键</td>
+<td>向下翻页</td>
+</tr>
+<tr>
+<td>PageUp/PageDown</td>
+<td>向上向下翻页</td>
+</tr>
+<tr>
+<td>g/G</td>
+<td>回到开头/末尾</td>
+</tr>
+<tr>
+<td>/string</td>
+<td>搜索string关键词</td>
+</tr>
+<tr>
+<td>n/N</td>
+<td>在关键词之间向下和向上查找</td>
+</tr>
+<tr>
+<td>q</td>
+<td>退出man帮助页面</td>
+</tr>
+</tbody></table>
+<p><strong>帮助手册（manual）</strong><br>&#8195;&#8195;位置：/usr/share/man/；man手册标准章节，常用选项：1、用户命令；5、文件格式；8、系统管理命令 </p>
+<table>
+<thead>
+<tr>
+<th align="center">章节</th>
+<th>Ecglish</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td>User commands</td>
+<td>用户命令</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>System calls</td>
+<td>系统调用库</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>Library functions</td>
+<td>库函数</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Special files</td>
+<td>特殊文件</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>File formats</td>
+<td>文件格式</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Games</td>
+<td>游戏</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>Conventions</td>
+<td>约定</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>Manintenance commands</td>
+<td>系统管理命令（一般只有root能执行的命令）</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Linux Kernel API</td>
+<td>Linux内核 API</td>
+</tr>
+</tbody></table>
+<p><strong>pinfo帮助文档</strong>   </p>
+<ul>
+<li>文档结构由超链接式的 info 节点组成，记录了很多复杂命令和概念说明</li>
+<li>在 RHEL 中可以使用 info 和 pinfo 两个命令浏览 info page </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>命令操作</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>PageUp或者b</td>
+<td>向上滚动一个屏幕</td>
+</tr>
+<tr>
+<td>PageDown或者空格键</td>
+<td>向下滚动一个屏幕</td>
+</tr>
+<tr>
+<td>d</td>
+<td>显示主题目录</td>
+</tr>
+<tr>
+<td>u</td>
+<td>显示主题的父节点</td>
+</tr>
+<tr>
+<td>向上/向下箭头键</td>
+<td>向上/向下滚动到下一个超链接</td>
+</tr>
+<tr>
+<td>enter键</td>
+<td>打开光标处的主题</td>
+</tr>
+<tr>
+<td>q</td>
+<td>打开光标处的主题</td>
+</tr>
+</tbody></table>
+<p><strong>RPM包文档</strong><br>&#8195;&#8195;本地帮助文档<br>&#8195;&#8195;安装软件包后，在doc目录下释放文档<br>&#8195;&#8195;/usr/share/doc/pa<br>&#8195;&#8195;可使用浏览器查看</p>
+<p><strong>redhat在线文档</strong><br>&#8195;&#8195;红帽官方文档 <a href="https://access.redhat.com/">https://access.redhat.com</a></p>
+<h1 id="单元小结"><a href="#单元小结" class="headerlink" title="单元小结"></a>单元小结</h1><ul>
+<li>命令的语法规则</li>
+<li>man帮助使用</li>
+<li>系统内其他帮助资源</li>
+<li>红帽在线文档查阅</li>
+</ul>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+        
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-01-05T00:00:02+08:00"
-              content="2021-01-05">
-          01-05
-        </time>
-      </div>
+<!--版权-->
+<div class="post-copyright">
+<ul>
+<!--判断本文作者-->
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Haruki
+  </li>
+  
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021-01-05_function-cloud.html" itemprop="url">
-            <span itemprop="name">云函数</span>
-          </a>
-      </div>
+ 
+  
+  <!--本文链接-->
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://自新世界.com/2021-01-03_Run-commands-and-get-help.html" title="运行命令和获取帮助">http://自新世界.com/2021-01-03_Run-commands-and-get-help.html</a>
+  </li>
+  
+  
+    <!--版权协议-->
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>ZERO</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
 
-    </header>
+      <footer class="post-footer">
+		
+              
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021-01-02_Linux-Basic-use.html" rel="prev" title="Linux的基本使用">
+      <i class="fa fa-chevron-left"></i> Linux的基本使用
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021-01-04_Understand-the-file-system-and-basic-operations.html" rel="next" title="了解文件系统的和基本操作">
+      了解文件系统的和基本操作 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
   </article>
-
-    </div>
-  </div>
   
   
   
-
-  
-
 
 
           </div>
@@ -295,6 +559,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87"><span class="nav-number">1.</span> <span class="nav-text">学习目标</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%91%BD%E4%BB%A4%E7%9A%84%E8%AF%AD%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">命令的语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96%E5%B8%AE%E5%8A%A9"><span class="nav-number">3.</span> <span class="nav-text">获取帮助</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%95%E5%85%83%E5%B0%8F%E7%BB%93"><span class="nav-number">4.</span> <span class="nav-text">单元小结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
