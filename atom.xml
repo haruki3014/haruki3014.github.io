@@ -6,7 +6,7 @@
   <link href="http://自新世界.com/atom.xml" rel="self"/>
   
   <link href="http://自新世界.com/"/>
-  <updated>2021-06-11T09:12:05.220Z</updated>
+  <updated>2021-06-23T12:43:21.337Z</updated>
   <id>http://自新世界.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://自新世界.com/2021-06-23_undefined.html"/>
-    <id>http://自新世界.com/2021-06-23_undefined.html</id>
-    <published>2021-06-23T11:57:04.034Z</published>
-    <updated>2021-06-11T09:12:05.220Z</updated>
+    <title>附页</title>
+    <link href="http://自新世界.com/2021-06-23_English-1.html"/>
+    <id>http://自新世界.com/2021-06-23_English-1.html</id>
+    <published>2021-06-22T16:00:02.000Z</published>
+    <updated>2021-06-23T12:43:21.337Z</updated>
     
     <content type="html"><![CDATA[<h1 id="元音辅音"><a href="#元音辅音" class="headerlink" title="元音辅音"></a>元音辅音</h1><ul><li>元音：a、e、i、o、u</li><li>辅音：b、c、d、f、g、h、j、k、l、m、n、p、q、r、s、t、v、w、x、y、z（除开元音的）</li></ul>]]></content>
     
@@ -34,6 +34,8 @@
       
     
     
+    
+    <category term="English" scheme="http://自新世界.com/categories/English/"/>
     
     
   </entry>
