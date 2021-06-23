@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://自新世界.com/2021-06-23_English-part-of-speech.html</loc>
+    
+    <lastmod>2021-06-23</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://自新世界.com/2021-06-23_List-introduction.html</loc>
+    
+    <lastmod>2021-06-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2021-06-22_Variables-and-simple-data-types.html</loc>
     
     <lastmod>2021-06-23</lastmod>
     
@@ -12,13 +26,6 @@
     <loc>http://自新世界.com/2021-06-21_Python-Basic-knowledge.html</loc>
     
     <lastmod>2021-06-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://自新世界.com/2021-06-22_Variables-and-simple-data-types.html</loc>
-    
-    <lastmod>2021-06-22</lastmod>
     
   </url>
   
@@ -54,6 +61,13 @@
     <loc>http://自新世界.com/2021-01-05_function-cloud.html</loc>
     
     <lastmod>2021-06-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/2021-06-23_undefined.html</loc>
+    
+    <lastmod>2021-06-11</lastmod>
     
   </url>
   
@@ -123,14 +137,14 @@
 
   
   <url>
-    <loc>http://自新世界.com/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>http://自新世界.com/tags/tools/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://自新世界.com/tags/tools/</loc>
+    <loc>http://自新世界.com/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -146,13 +160,6 @@
 
   
   <url>
-    <loc>http://自新世界.com/categories/%E6%9D%82%E7%89%A9%E7%AE%B1/</loc>
-    <lastmod>2021-06-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://自新世界.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
@@ -160,7 +167,7 @@
   </url>
   
   <url>
-    <loc>http://自新世界.com/categories/linux-for-rhel8/</loc>
+    <loc>http://自新世界.com/categories/%E6%9D%82%E7%89%A9%E7%AE%B1/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -168,6 +175,20 @@
   
   <url>
     <loc>http://自新世界.com/categories/python/</loc>
+    <lastmod>2021-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/categories/English/</loc>
+    <lastmod>2021-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://自新世界.com/categories/linux-for-rhel8/</loc>
     <lastmod>2021-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
