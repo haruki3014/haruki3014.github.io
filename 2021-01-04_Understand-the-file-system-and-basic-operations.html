@@ -22,15 +22,15 @@
     var CONFIG = {"hostname":"xn--rhq388ct6kcjm.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="学习目标 描述分件系统重要的组成部分 复制，移动和删除文件 创建文件和文件夹 了解时间戳的概念  Linux文件系统的组成&amp;#8195;&amp;#8195;整个文件系统由 分区–目录 对接&amp;#8195;&amp;#8195;文件都是从根开始的，无论文件在哪个分区，都可以通过根访问到    文件和目录构成单根的倒树状结构 文件系统从根目录开始，表示为一个单独的’&#x2F;’(斜线)字符 命名大小写敏感 路径以’&#x2F;’为分隔">
+  <meta name="description" content="学习目标 描述分件系统重要的组成部分 复制，移动和删除文件 创建文件和文件夹 了解时间戳的概念  Linux文件系统的组成整个文件系统由 分区–目录 对接文件都是从根开始的，无论文件在哪个分区，都可以通过根访问到    文件和目录构成单根的倒树状结构 文件系统从根目录开始，表示为一个单独的’&#x2F;’(斜线)字符 命名大小写敏感 路径以’&#x2F;’为分隔      graph TD     A(&#x2F;)---B1">
 <meta property="og:type" content="article">
-<meta property="og:title" content="了解文件系统的和基本操作">
+<meta property="og:title" content="04、了解文件系统的和基本操作">
 <meta property="og:url" content="http://自新世界.com/2021-01-04_Understand-the-file-system-and-basic-operations.html">
 <meta property="og:site_name" content="自新世界">
-<meta property="og:description" content="学习目标 描述分件系统重要的组成部分 复制，移动和删除文件 创建文件和文件夹 了解时间戳的概念  Linux文件系统的组成&amp;#8195;&amp;#8195;整个文件系统由 分区–目录 对接&amp;#8195;&amp;#8195;文件都是从根开始的，无论文件在哪个分区，都可以通过根访问到    文件和目录构成单根的倒树状结构 文件系统从根目录开始，表示为一个单独的’&#x2F;’(斜线)字符 命名大小写敏感 路径以’&#x2F;’为分隔">
+<meta property="og:description" content="学习目标 描述分件系统重要的组成部分 复制，移动和删除文件 创建文件和文件夹 了解时间戳的概念  Linux文件系统的组成整个文件系统由 分区–目录 对接文件都是从根开始的，无论文件在哪个分区，都可以通过根访问到    文件和目录构成单根的倒树状结构 文件系统从根目录开始，表示为一个单独的’&#x2F;’(斜线)字符 命名大小写敏感 路径以’&#x2F;’为分隔      graph TD     A(&#x2F;)---B1">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-01-03T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-06-22T13:05:01.569Z">
+<meta property="article:modified_time" content="2021-07-06T06:29:47.296Z">
 <meta property="article:author" content="Haruki">
 <meta name="twitter:card" content="summary">
 
@@ -47,7 +47,7 @@
   };
 </script>
 
-  <title>了解文件系统的和基本操作 | 自新世界</title>
+  <title>04、了解文件系统的和基本操作 | 自新世界</title>
   
 
 
@@ -222,7 +222,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          了解文件系统的和基本操作
+          04、了解文件系统的和基本操作
         </h1>
 
         <div class="post-meta">
@@ -239,7 +239,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-06-22 21:05:01" itemprop="dateModified" datetime="2021-06-22T21:05:01+08:00">2021-06-22</time>
+                <time title="修改时间：2021-07-06 14:29:47" itemprop="dateModified" datetime="2021-07-06T14:29:47+08:00">2021-07-06</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -247,7 +247,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux-for-rhel8/" itemprop="url" rel="index"><span itemprop="name">linux for rhel8</span></a>
+                  <a href="/categories/Linux-RHEL8/" itemprop="url" rel="index"><span itemprop="name">Linux -> RHEL8</span></a>
                 </span>
             </span>
 
@@ -268,34 +268,33 @@
 <li>创建文件和文件夹</li>
 <li>了解时间戳的概念</li>
 </ul>
-<h1 id="Linux文件系统的组成"><a href="#Linux文件系统的组成" class="headerlink" title="Linux文件系统的组成"></a>Linux文件系统的组成</h1><p>&#8195;&#8195;整个文件系统由 分区–目录 对接<br>&#8195;&#8195;文件都是从根开始的，无论文件在哪个分区，都可以通过根访问到  </p>
+<h1 id="Linux文件系统的组成"><a href="#Linux文件系统的组成" class="headerlink" title="Linux文件系统的组成"></a>Linux文件系统的组成</h1><p>整个文件系统由 分区–目录 对接<br>文件都是从根开始的，无论文件在哪个分区，都可以通过根访问到  </p>
 <ul>
 <li>文件和目录构成单根的倒树状结构</li>
 <li>文件系统从根目录开始，表示为一个单独的’/’(斜线)字符</li>
 <li>命名大小写敏感</li>
 <li>路径以’/’为分隔</li>
 </ul>
-<pre class="mermaid">
-    graph TD
-    A(/)-->B1(bin)
-    A-->B2(boot)
-    A-->B3(dev)
-    A-->B4(etc)
-    A-->B5(home)
-        B5-->D1(alice)
-        B5-->D2(bob)
-        B5-->D3(eve)
-    A-->B6(root)
-    A-->B7(run)
-    A-->B8(sbin)
-    A-->B9(tmp)
-    A-->B10(usr)
-        B10-->D4(bin)
-        B10-->D5(local)
-        B10-->D6(sbin)
-        B10-->D7(tmp)        
-    A-->B11(var)
-        B11-->D8(tmp)</pre>
+<pre class="mermaid">    graph TD
+    A(/)---B1(bin)
+    A---B2(boot)
+    A---B3(dev)
+    A---B4(etc)
+    A---B5(home)
+        B5---D1(alice)
+        B5---D2(bob)
+        B5---D3(eve)
+    A---B6(root)
+    A---B7(run)
+    A---B8(sbin)
+    A---B9(tmp)
+    A---B10(usr)
+        B10---D4(bin)
+        B10---D5(local)
+        B10---D6(sbin)
+        B10---D7(tmp)        
+    A---B11(var)
+        B11---D8(tmp)</pre>
 <a id="more"></a>  
 
 <p><strong>执行命令：ls -la；显示白色是文件，蓝色是目录</strong>  </p>
@@ -416,39 +415,55 @@
 </tr>
 </tbody></table>
 <p><strong>组信息文件：/etc/group</strong></p>
-<p>| 字段1 | 字段2 | 字段3 | 字段4 |<br>| —– | —– |<br>|组的名称|密码占位符“x”|组的ID号|该组是user1，user2和user3的附加组|</p>
-<p>#文件和目录名<br>&#8195;&#8195;<strong>名字不能多于255个字符</strong><br>&#8195;&#8195;<strong>所有字符都要求是有效的，除斜线(/)之外</strong><br>&#8195;&#8195;&#8195;&#8195;不要使用某些特殊的字符在文件或者目录名中<br>&#8195;&#8195;&#8195;&#8195;当文件名中有特殊字符时应用引号保护引起来<br>&#8195;&#8195;<strong>命名和大小写敏感</strong><br>&#8195;&#8195;&#8195;&#8195;例如:MAIL,Mail,mail和mAiL</p>
-<h1 id="绝对路径和相对路径"><a href="#绝对路径和相对路径" class="headerlink" title="绝对路径和相对路径"></a>绝对路径和相对路径</h1><p>&#8195;&#8195;<strong>绝对路径：</strong><br>&#8195;&#8195;&#8195;&#8195;以根开头的路径<br>&#8195;&#8195;&#8195;&#8195;文件位置的全路径<br>&#8195;&#8195;&#8195;&#8195;在任何位置都可以引用<br>&#8195;&#8195;<strong>相对路径：</strong><br>&#8195;&#8195;&#8195;&#8195;不以斜线开头<br>&#8195;&#8195;&#8195;&#8195;当前工作目录的相对位置<br>&#8195;&#8195;&#8195;&#8195;在特定的位置才可以引用</p>
-<h1 id="管理文件和目录的基本命令"><a href="#管理文件和目录的基本命令" class="headerlink" title="管理文件和目录的基本命令"></a>管理文件和目录的基本命令</h1><p><strong>ls</strong>：显示当前目录或者指定目录下的内容<br>使用<br>&#8195;&#8195;ls [options] [files or dirs]<br>示例<br>&#8195;&#8195;ls -a (包括隐藏文件)<br>&#8195;&#8195;ls -l (显示扩展信息)<br>&#8195;&#8195;ls -R(递归所有的目录)<br>&#8195;&#8195;ls -ld (显示目录和符号链接信息)</p>
+<table>
+<thead>
+<tr>
+<th>字段1</th>
+<th>字段2</th>
+<th>字段3</th>
+<th>字段4</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>组的名称</td>
+<td>密码占位符“x”</td>
+<td>组的ID号</td>
+<td>该组是user1，user2和user3的附加组</td>
+</tr>
+</tbody></table>
+<h1 id="文件和目录名"><a href="#文件和目录名" class="headerlink" title="文件和目录名"></a>文件和目录名</h1><p><strong>名字不能多于255个字符</strong><br><strong>所有字符都要求是有效的，除斜线(/)之外</strong><br>不要使用某些特殊的字符在文件或者目录名中<br>当文件名中有特殊字符时应用引号保护引起来<br><strong>命名和大小写敏感</strong><br>例如:MAIL,Mail,mail和mAiL</p>
+<h1 id="绝对路径和相对路径"><a href="#绝对路径和相对路径" class="headerlink" title="绝对路径和相对路径"></a>绝对路径和相对路径</h1><p><strong>绝对路径：</strong><br>以根开头的路径<br>文件位置的全路径<br>在任何位置都可以引用<br><strong>相对路径：</strong><br>不以斜线开头<br>当前工作目录的相对位置<br>在特定的位置才可以引用</p>
+<h1 id="管理文件和目录的基本命令"><a href="#管理文件和目录的基本命令" class="headerlink" title="管理文件和目录的基本命令"></a>管理文件和目录的基本命令</h1><p><strong>ls</strong>：显示当前目录或者指定目录下的内容<br>使用<br>ls [options] [files or dirs]<br>示例<br>ls -a (包括隐藏文件)<br>ls -l (显示扩展信息)<br>ls -R(递归所有的目录)<br>ls -ld (显示目录和符号链接信息)</p>
 <p><strong>mkdir</strong>：</p>
 <ol>
-<li>命令格式<br>&#8195;&#8195;mkdir [-选项] 目录…</li>
-<li>命令功能<br>&#8195;&#8195;通过 mkdir 命令可以实现在指定位置创建指定的文件名的文件夹。<strong>要创建文件夹的用户必须对所创建的文件夹的父文件夹具有写权限</strong>。并且，所创建的文件夹不能与其父目录中的已经存在文件重名，即同一个目录下不能有同名的(区分大小写)。 </li>
-<li>命令参数<br>&#8195;&#8195; -p, –parents 可以是一个路径名称。<strong>此时若路径中的某些目录尚不存在,加上此选项后,系统将自动建立好那些尚不存在的目录</strong>,即一次可以建立多个目录;<br>&#8195;&#8195;-v, –verbose 每次创建新目录都显示信息</li>
+<li>命令格式<br>mkdir [-选项] 目录…</li>
+<li>命令功能<br>通过 mkdir 命令可以实现在指定位置创建指定的文件名的文件夹。<strong>要创建文件夹的用户必须对所创建的文件夹的父文件夹具有写权限</strong>。并且，所创建的文件夹不能与其父目录中的已经存在文件重名，即同一个目录下不能有同名的(区分大小写)。 </li>
+<li>命令参数  </li>
 </ol>
+<p> -p, –parents 可以是一个路径名称。<strong>此时若路径中的某些目录尚不存在,加上此选项后,系统将自动建立好那些尚不存在的目录</strong>,即一次可以建立多个目录;<br>-v, –verbose 每次创建新目录都显示信息</p>
 <p><strong>pwd</strong>：显示当前所在的目录的绝对路径</p>
-<p><strong>cd</strong>：改变目录<br>改变到一个绝对或者相对路径<br>&#8195;&#8195;cd /home/joshua/work；cd project/docs<br>改变到上层目录<br>&#8195;&#8195;cd ..<br>改变目录到上一个工作目录<br>&#8195;&#8195;cd -<br>改变到当前用户的主目录<br>&#8195;&#8195;cd 或者cd ~<br>改变到某个用户的主目录<br>&#8195;&#8195;cd  ~username</p>
+<p><strong>cd</strong>：改变目录<br>改变到一个绝对或者相对路径<br>cd /home/joshua/work；cd project/docs<br>改变到上层目录<br>cd ..<br>改变目录到上一个工作目录<br>cd -<br>改变到当前用户的主目录<br>cd 或者cd ~<br>改变到某个用户的主目录<br>cd  ~username</p>
 <p><strong>rmdir</strong>：删除空目录</p>
-<p><strong>cp</strong>：命令主要用于复制文件或目录<br>&#8195;&#8195; cp [options] source… directory<br>&#8195;&#8195; l -p：除复制文件的内容外，还把修改时间和访问权限也复制到新文件中。<br>&#8195;&#8195; l -r：若给出的源文件是一个目录文件，此时将复制该目录下所有的子目录和文件。</p>
-<p><strong>mv</strong>:命令用来为文件或目录改名、或将文件或目录移入其它位置。<br>&#8195;&#8195; mv source… directory</p>
-<p><strong>rm</strong>：命令用于删除一个文件或者目录。<br>&#8195;&#8195; rm [options] name…<br>&#8195;&#8195; l -f 即使文件属性设为只读，也直接删除，无需逐一确认。<br>&#8195;&#8195; l -r 将目录及以下之文件一起删除。<br>&#8195;&#8195; rm -rf * 删除当前目录下的所有文件及目录</p>
-<p><strong>touch</strong>：命令用于修改文件或者目录的时间属性。若文件不存在，系统会建立一个新的文件。<br>&#8195;&#8195;命令格式：touch  文件名</p>
+<p><strong>cp</strong>：命令主要用于复制文件或目录<br> cp [options] source… directory<br> l -p：除复制文件的内容外，还把修改时间和访问权限也复制到新文件中。<br> l -r：若给出的源文件是一个目录文件，此时将复制该目录下所有的子目录和文件。</p>
+<p><strong>mv</strong>:命令用来为文件或目录改名、或将文件或目录移入其它位置。<br> mv source… directory</p>
+<p><strong>rm</strong>：命令用于删除一个文件或者目录。<br> rm [options] name…<br> l -f 即使文件属性设为只读，也直接删除，无需逐一确认。<br> l -r 将目录及以下之文件一起删除。<br> rm -rf * 删除当前目录下的所有文件及目录</p>
+<p><strong>touch</strong>：命令用于修改文件或者目录的时间属性。若文件不存在，系统会建立一个新的文件。<br>命令格式：touch  文件名</p>
 <p><strong>cat</strong>：命令用显示文件内容。</p>
-<p><strong>命令格式</strong>：cat [-选项] 文件<br>&#8195;&#8195;加参数：-n 或 –number：由 1 开始对所有输出的行数编号。</p>
-<p><strong>more</strong>：命令类似 cat ，不过会以一页一页的形式显示，更方便使用者逐页阅读，而最基本的指令就是按空白键（space）就往下一页显示，按 b 键就会往回（back）一页显示<br>&#8195;&#8195;l Enter 向下n行，需要定义。默认为1行<br>&#8195;&#8195;l 空格键 向下滚动一屏<br>&#8195;&#8195;l q 退出more</p>
+<p><strong>命令格式</strong>：cat [-选项] 文件<br>加参数：-n 或 –number：由 1 开始对所有输出的行数编号。</p>
+<p><strong>more</strong>：命令类似 cat ，不过会以一页一页的形式显示，更方便使用者逐页阅读，而最基本的指令就是按空白键（space）就往下一页显示，按 b 键就会往回（back）一页显示<br>l Enter 向下n行，需要定义。默认为1行<br>l 空格键 向下滚动一屏<br>l q 退出more</p>
 <p><strong>less</strong>：工具也是对文件或其它输出进行分页显示的工具，应该说是linux正统查看文件内容的工具，功能极其强大。  </p>
 <ol>
-<li>命令格式<br>&#8195;&#8195;less [-选项] 文件 </li>
-<li>命令功能<br>&#8195;&#8195;less 与 more 类似，但使用 less 可以随意浏览文件，而 more 仅能向前移动，却不能向后移动，而且 less 在查看之前不会加载整个文件。<br>&#8195;&#8195;/字符串：向下搜索“字符串”的功能<br>&#8195;&#8195;?字符串：向上搜索“字符串”的功能<br>&#8195;&#8195;n：重复前一个搜索（与 / 或 ? 有关），next<br>&#8195;&#8195;N：反向重复前一个搜索（与 / 或 ? 有关）<br>&#8195;&#8195;Q 退出less 命令<br>&#8195;&#8195;Enter 向下n行，需要定义。默认为1行<br>&#8195;&#8195;空格键 向下滚动一屏<br>&#8195;&#8195;b键 向上滚动一屏<br>&#8195;&#8195;[pagedown]： 向下翻动一行<br>&#8195;&#8195;[pageup]：  向上翻动一行  </li>
+<li>命令格式<br>less [-选项] 文件 </li>
+<li>命令功能<br>less 与 more 类似，但使用 less 可以随意浏览文件，而 more 仅能向前移动，却不能向后移动，而且 less 在查看之前不会加载整个文件。<br>/ 字符串：向下搜索“字符串”的功能<br>? 字符串：向上搜索“字符串”的功能<br>n：重复前一个搜索（与 / 或 ? 有关），next<br>N：反向重复前一个搜索（与 / 或 ? 有关）<br>Q 退出less 命令<br>Enter 向下n行，需要定义。默认为1行<br>空格键 向下滚动一屏<br>b键 向上滚动一屏<br>[pagedown]： 向下翻动一行<br>[pageup]：  向上翻动一行  </li>
 </ol>
-<p>**head (head)**：用来显示档案的开头至标准输出中。如果指定了多于一个文件，在每一段输出前会给出文件名作为文件头。<br>&#8195;&#8195;head -n 5 log.txt ；说明：显示文件的前n行</p>
+<p>**head (head)**：用来显示档案的开头至标准输出中。如果指定了多于一个文件，在每一段输出前会给出文件名作为文件头。<br>head -n 5 log.txt ；说明：显示文件的前n行</p>
 <p><strong>tail</strong>：命令用途是依照要求将指定的文件的最后部分输出  </p>
 <ol>
-<li>tail filename<br>&#8195;&#8195;说明：显示filename最后10行。</li>
-<li>tail -F filename<br>&#8195;&#8195;说明：动态监视filename文件的尾部内容（默认10行，相当于增加参数 -n 10），刷新显示在屏幕上。退出，按下CTRL+C。</li>
-<li>tail -n 20 filename<br>&#8195;&#8195;说明：显示filename最后20行。</li>
+<li>tail filename<br>说明：显示filename最后10行。</li>
+<li>tail -F filename<br>说明：动态监视filename文件的尾部内容（默认10行，相当于增加参数 -n 10），刷新显示在屏幕上。退出，按下CTRL+C。</li>
+<li>tail -n 20 filename<br>说明：显示filename最后20行。</li>
 </ol>
-<p><strong>file查看文件类型</strong>：查看文件类型<br>文件可以包含许多类型的数据<br>在文件打开之前先检查文件类型，然后再确定使用适当的命令或者应用程序<br>&#8195;&#8195;file [options] <filename>…</p>
+<p><strong>file查看文件类型</strong>：查看文件类型<br>文件可以包含许多类型的数据<br>在文件打开之前先检查文件类型，然后再确定使用适当的命令或者应用程序<br>file [options] <filename>…</p>
 <p><strong>tree</strong>：可以查看当前目录下的所有子目录和文件结构</p>
 <h1 id="单元小结"><a href="#单元小结" class="headerlink" title="单元小结"></a>单元小结</h1><ul>
 <li>Linux 文件系统层次结构</li>
@@ -477,7 +492,7 @@
   <!--本文链接-->
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="http://自新世界.com/2021-01-04_Understand-the-file-system-and-basic-operations.html" title="了解文件系统的和基本操作">http://自新世界.com/2021-01-04_Understand-the-file-system-and-basic-operations.html</a>
+      <a href="http://自新世界.com/2021-01-04_Understand-the-file-system-and-basic-operations.html" title="04、了解文件系统的和基本操作">http://自新世界.com/2021-01-04_Understand-the-file-system-and-basic-operations.html</a>
   </li>
   
   
@@ -497,11 +512,11 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021-01-03_Run-commands-and-get-help.html" rel="prev" title="运行命令和获取帮助">
-      <i class="fa fa-chevron-left"></i> 运行命令和获取帮助
+    <a href="/2021-01-03_Run-commands-and-get-help.html" rel="prev" title="03、运行命令和获取帮助">
+      <i class="fa fa-chevron-left"></i> 03、运行命令和获取帮助
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021-01-05_make-domainname.html" rel="next" title="域名的使用">
+    <a href="/2021-01-05_Use-domainname.html" rel="next" title="域名的使用">
       域名的使用 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -560,7 +575,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87"><span class="nav-number">1.</span> <span class="nav-text">学习目标</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%84%E6%88%90"><span class="nav-number">2.</span> <span class="nav-text">Linux文件系统的组成</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%9B%AE%E5%BD%95"><span class="nav-number">3.</span> <span class="nav-text">基本目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%87%8D%E8%A6%81%E7%9B%AE%E5%BD%95"><span class="nav-number">4.</span> <span class="nav-text">重要目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95"><span class="nav-number">5.</span> <span class="nav-text">一些常用文件目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%92%8C%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="nav-number">6.</span> <span class="nav-text">绝对路径和相对路径</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AE%A1%E7%90%86%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="nav-number">7.</span> <span class="nav-text">管理文件和目录的基本命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%95%E5%85%83%E5%B0%8F%E7%BB%93"><span class="nav-number">8.</span> <span class="nav-text">单元小结</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87"><span class="nav-number">1.</span> <span class="nav-text">学习目标</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%84%E6%88%90"><span class="nav-number">2.</span> <span class="nav-text">Linux文件系统的组成</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%9B%AE%E5%BD%95"><span class="nav-number">3.</span> <span class="nav-text">基本目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%87%8D%E8%A6%81%E7%9B%AE%E5%BD%95"><span class="nav-number">4.</span> <span class="nav-text">重要目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95"><span class="nav-number">5.</span> <span class="nav-text">一些常用文件目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95%E5%90%8D"><span class="nav-number">6.</span> <span class="nav-text">文件和目录名</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%92%8C%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="nav-number">7.</span> <span class="nav-text">绝对路径和相对路径</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AE%A1%E7%90%86%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="nav-number">8.</span> <span class="nav-text">管理文件和目录的基本命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%95%E5%85%83%E5%B0%8F%E7%BB%93"><span class="nav-number">9.</span> <span class="nav-text">单元小结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -576,20 +591,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-count">19</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
